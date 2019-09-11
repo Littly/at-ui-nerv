@@ -4,7 +4,7 @@ import { CSSTransition } from 'react-transition-group'
 
 interface DropdownMenuProps {
   show?
-  rootElem
+  rootElem?
   placement?:
     | 'top'
     | 'top-left'

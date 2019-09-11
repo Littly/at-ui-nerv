@@ -130,7 +130,7 @@ export class Checkbox extends Nerv.Component<BaseProps & CheckboxProps, Checkbox
 export class Tag extends Nerv.Component<BaseProps & TagProps, TagState> {}
 
 // dropdown
-export class Dropdown extends Nerv.Component<BaseProps & DropdownProps, DropdownState> {}
+export { default as Dropdown } from '../src/dropdown/dropdown'
 
 export class Select extends Nerv.Component<BaseProps & SelectProps, any> {
   static Option: typeof SelectOption

@@ -1,5 +1,5 @@
 {
-  "name": "at-ui-nerv",
+  "name": "@o2team/at-ui-nerv",
   "version": "0.4.36",
   "description": "AT-UI for Nerv",
   "main": "dist/at.nerv.js",
@@ -136,7 +136,7 @@
     "lint-staged": "^6.0.0",
     "markdown-it-react-loader": "0.0.9",
     "nerv-test-utils": "^1.4.3",
-    "nervjs": "^1.4.3",
+    "nervjs": "1.4.4",
     "node-sass": "^4.9.1",
     "ora": "^2.1.0",
     "postcss": "^6.0.16",

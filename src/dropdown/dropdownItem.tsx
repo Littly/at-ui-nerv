@@ -5,7 +5,7 @@ interface DropdownItemProps {
   name?: string
   disabled?: boolean
   divided?: boolean
-  rootElem
+  rootElem?
 }
 
 class DropdownItem extends Component<DropdownItemProps, any> {
